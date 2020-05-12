@@ -1,6 +1,6 @@
 # 必须将此镜像私有
 
-FROM khs1994/docker-image-sync
+FROM alpine
 
 WORKDIR /root/lnmp/windows/
 
@@ -16,9 +16,7 @@ ENV DEST_DOCKER_REGISTRY=$DEST_DOCKER_REGISTRY \
     DEST_NAMESPACE=$DEST_NAMESPACE \
     CONFIG_URL=$CONFIG_URL
 
-RUN curl -L ${env:CONFIG_URL} -o docker-image-sync.json \
-  ; ./docker-image-sync.ps1 \
-  ; rm -rf /root/.khs1994-docker-lnmp
+RUN env
 
 # --build-arg DEST_DOCKER_REGISTRY
 # --build-arg DEST_DOCKER_USERNAME
