@@ -24,3 +24,4 @@ RUN curl -L ${env:CONFIG_URL} -o docker-image-sync.json \
 # --build-arg DEST_DOCKER_USERNAME
 # --build-arg DEST_DOCKER_PASSWORD
 # --build-arg DEST_NAMESPACE
+# --build-arg CONFIG_URL
