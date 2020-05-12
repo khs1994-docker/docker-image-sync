@@ -1,6 +1,6 @@
 # 必须将此镜像私有
 
-FROM alpine
+FROM alpine:edge
 
 WORKDIR /root/lnmp/windows/
 
