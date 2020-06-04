@@ -8,20 +8,20 @@
     "dest": "node:alpine"
   },
   {
-    "source": "node:14.2.0-alpine",
-    "dest": "node:14.2.0-alpine"
+    "source": "node:14.4.0-alpine",
+    "dest": "node:14.4.0-alpine"
   },
   {
-    "source": "golang:1.14.2-alpine",
-    "dest": "golang:1.14.2-alpine"
+    "source": "golang:1.14.4-alpine",
+    "dest": "golang:1.14.4-alpine"
   },
   {
     "source": "golang:alpine",
     "dest": "golang:alpine"
   },
   {
-    "source": "library/alpine:3.11",
-    "dest": "alpine:3.11"
+    "source": "library/alpine:3.12",
+    "dest": "alpine:3.12"
   },
   {
     "source": "library/alpine:edge",
@@ -36,8 +36,8 @@
     "dest": "python:alpine"
   },
   {
-    "source": "library/python:3.8.2-alpine",
-    "dest": "python:3.8.2-alpine"
+    "source": "library/python:3.8.3-alpine",
+    "dest": "python:3.8.3-alpine"
   },
   {
     "source": "library/mysql:latest",
@@ -112,8 +112,8 @@
     "dest": "redis:5.0.9-alpine"
   },
   {
-    "source": "library/redis:6.0.1-alpine",
-    "dest": "redis:6.0.1-alpine"
+    "source": "library/redis:6.0.4-alpine",
+    "dest": "redis:6.0.4-alpine"
   },
   {
     "source": "library/memcached:alpine",
@@ -132,8 +132,8 @@
     "dest": "nginx:1.18.0-alpine"
   },
   {
-    "source": "library/nginx:1.17.10-alpine",
-    "dest": "nginx:1.17.10-alpine"
+    "source": "library/nginx:1.19.0-alpine",
+    "dest": "nginx:1.19.0-alpine"
   },
   {
     "source": "library/httpd:alpine",
@@ -148,8 +148,8 @@
     "dest": "postgres:alpine"
   },
   {
-    "source": "library/postgres:12.2-alpine",
-    "dest": "postgres:12.2-alpine"
+    "source": "library/postgres:12.3-alpine",
+    "dest": "postgres:12.3-alpine"
   },
   {
     "source": "library/rabbitmq:alpine",
@@ -212,19 +212,19 @@
     "dest": "caddy:alpine"
   },
   {
-    "source": "quay.io/coreos/etcd:v3.4.7",
-    "dest": "etcd:v3.4.7",
+    "source": "quay.io/coreos/etcd:v3.4.9",
+    "dest": "etcd:v3.4.9",
     "platform": [
       {
         "os": "linux",
         "architecture": "arm64",
         "variant": "v8",
-        "image": "quay.io/coreos/etcd:v3.4.7-arm64"
+        "image": "quay.io/coreos/etcd:v3.4.9-arm64"
       }
     ]
   },
   {
-    "source": "quay.io/coreos/etcd:v3.4.7-arm64",
-    "dest": "etcd:v3.4.7-arm64"
+    "source": "quay.io/coreos/etcd:v3.4.9-arm64",
+    "dest": "etcd:v3.4.9-arm64"
   }
 ]
