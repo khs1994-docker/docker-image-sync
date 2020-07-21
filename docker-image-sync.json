@@ -4,16 +4,15 @@
     "dest": "not-exists:latest"
   },
   {
-    "source": "node:alpine",
-    "dest": "node:alpine"
+    "source": "node:alpine"
   },
   {
     "source": "node:14.5.0-alpine",
     "dest": "node:14.5.0-alpine"
   },
   {
-    "source": "golang:1.14.4-alpine",
-    "dest": "golang:1.14.4-alpine"
+    "source": "golang:1.14.6-alpine",
+    "dest": "golang:1.14.6-alpine"
   },
   {
     "source": "golang:alpine",
@@ -44,8 +43,8 @@
     "dest": "mysql:latest"
   },
   {
-    "source": "library/mysql:8.0.20",
-    "dest": "mysql:8.0.20"
+    "source": "library/mysql:8.0.21",
+    "dest": "mysql:8.0.21"
   },
   {
     "source": "library/mysql:5.7.30",
@@ -96,12 +95,12 @@
     "dest": "kong:alpine"
   },
   {
-    "source": "library/kong:2.0.4",
-    "dest": "kong:2.0.4"
+    "source": "library/kong:2.0.5",
+    "dest": "kong:2.0.5"
   },
   {
-    "source": "library/kong:2.0.4-alpine",
-    "dest": "kong:2.0.4-alpine"
+    "source": "library/kong:2.0.5-alpine",
+    "dest": "kong:2.0.5-alpine"
   },
   {
     "source": "library/redis:alpine",
@@ -212,19 +211,19 @@
     "dest": "caddy:alpine"
   },
   {
-    "source": "quay.io/coreos/etcd:v3.4.9",
-    "dest": "etcd:v3.4.9",
+    "source": "quay.io/coreos/etcd:v3.4.10",
+    "dest": "etcd:v3.4.10",
     "platform": [
       {
         "os": "linux",
         "architecture": "arm64",
         "variant": "v8",
-        "image": "quay.io/coreos/etcd:v3.4.9-arm64"
+        "image": "quay.io/coreos/etcd:v3.4.10-arm64"
       }
     ]
   },
   {
-    "source": "quay.io/coreos/etcd:v3.4.9-arm64",
-    "dest": "etcd:v3.4.9-arm64"
+    "source": "quay.io/coreos/etcd:v3.4.10-arm64",
+    "dest": "etcd:v3.4.10-arm64"
   }
 ]
