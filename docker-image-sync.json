@@ -95,12 +95,12 @@
     "dest": "kong:alpine"
   },
   {
-    "source": "library/kong:2.0.5",
-    "dest": "kong:2.0.5"
+    "source": "library/kong:2.1.0",
+    "dest": "kong:2.1.0"
   },
   {
-    "source": "library/kong:2.0.5-alpine",
-    "dest": "kong:2.0.5-alpine"
+    "source": "library/kong:2.1.0-alpine",
+    "dest": "kong:2.1.0-alpine"
   },
   {
     "source": "library/redis:alpine",
@@ -111,8 +111,8 @@
     "dest": "redis:5.0.9-alpine"
   },
   {
-    "source": "library/redis:6.0.5-alpine",
-    "dest": "redis:6.0.5-alpine"
+    "source": "library/redis:6.0.6-alpine",
+    "dest": "redis:6.0.6-alpine"
   },
   {
     "source": "library/memcached:alpine",
@@ -213,17 +213,40 @@
   {
     "source": "quay.io/coreos/etcd:v3.4.10",
     "dest": "etcd:v3.4.10",
-    "platform": [
+    "platforms": [
+      {
+        "source": "quay.io/coreos/etcd:v3.4.10"
+      },
       {
         "os": "linux",
         "architecture": "arm64",
         "variant": "v8",
-        "image": "quay.io/coreos/etcd:v3.4.10-arm64"
+        "source": "quay.io/coreos/etcd:v3.4.10-arm64",
+        "dest": "etcd:v3.4.10-arm64"
       }
     ]
   },
   {
-    "source": "quay.io/coreos/etcd:v3.4.10-arm64",
-    "dest": "etcd:v3.4.10-arm64"
+    "source": "quay.io/coreos/flannel:v0.12.0-amd64",
+    "dest": "flannel:v0.12.0",
+    "platforms": [
+      {
+        "source": "quay.io/coreos/flannel:v0.12.0-amd64"
+      },
+      {
+        "os": "linux",
+        "architecture": "arm64",
+        "source": "quay.io/coreos/flannel:v0.12.0-arm64",
+        "dest": "flannel:v0.12.0-arm64"
+      },
+      {
+        "os": "linux",
+        "architecture": "arm",
+        "dest": "flannel:v0.12.0-arm",
+        "registry": "quay.io",
+        "image": "coreos/flannel",
+        "ref": "v0.12.0-arm"
+      }
+    ]
   }
 ]
