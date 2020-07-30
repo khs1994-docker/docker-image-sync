@@ -7,8 +7,8 @@
     "source": "node:alpine"
   },
   {
-    "source": "node:14.5.0-alpine",
-    "dest": "node:14.5.0-alpine"
+    "source": "node:14.6.0-alpine",
+    "dest": "node:14.6.0-alpine"
   },
   {
     "source": "golang:1.14.6-alpine",
@@ -35,8 +35,8 @@
     "dest": "python:alpine"
   },
   {
-    "source": "library/python:3.8.3-alpine",
-    "dest": "python:3.8.3-alpine"
+    "source": "library/python:3.8.5-alpine",
+    "dest": "python:3.8.5-alpine"
   },
   {
     "source": "library/mysql:latest",
@@ -155,16 +155,16 @@
     "dest": "rabbitmq:alpine"
   },
   {
-    "source": "library/rabbitmq:3.8.3-alpine",
-    "dest": "rabbitmq:3.8.3-alpine"
+    "source": "library/rabbitmq:3.8.5-alpine",
+    "dest": "rabbitmq:3.8.5-alpine"
   },
   {
     "source": "library/rabbitmq:management-alpine",
     "dest": "rabbitmq:management-alpine"
   },
   {
-    "source": "library/rabbitmq:3.8.3-management-alpine",
-    "dest": "rabbitmq:3.8.3-management-alpine"
+    "source": "library/rabbitmq:3.8.5-management-alpine",
+    "dest": "rabbitmq:3.8.5-management-alpine"
   },
   {
     "source": "phpmyadmin/phpmyadmin:latest",
@@ -251,5 +251,13 @@
         "ref": "v0.12.0-arm"
       }
     ]
+  },
+  {
+    "source": "lrew/lrew:latest",
+    "dest": "lrew/lrew:latest"
+  },
+  {
+    "source": "lrewpkg/etcd:latest",
+    "dest": "lrewpkg/etcd:latest"
   }
 ]
