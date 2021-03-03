@@ -10,9 +10,6 @@ jobs:
           docker run -i --rm \
             -e DEST_DOCKER_USERNAME=${DOCKER_USERNAME} \
             -e DEST_DOCKER_PASSWORD=${DOCKER_PASSWORD} \
-            #-e SOURCE_DOCKER_USERNAME \
-            #-e SOURCE_DOCKER_PASSWORD \
-            #-e SOURCE_DOCKER_REGISTRY \
             -e DEST_DOCKER_REGISTRY=ghcr.io \
             -e DEST_NAMESPACE=dpsigs \
             -e CI=true \
