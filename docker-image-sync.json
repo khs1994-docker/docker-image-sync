@@ -80,8 +80,8 @@
     "dest": "library-mirror/mariadb:latest"
   },
   {
-    "source": "library/mariadb:10.6.0",
-    "dest": "library-mirror/mariadb:10.6.0"
+    "source": "library/mariadb:10.6.1",
+    "dest": "library-mirror/mariadb:10.6.1"
   },
   {
     "source": "library/mariadb:10.5.9",
@@ -152,20 +152,20 @@
     "dest": "library-mirror/nginx:alpine"
   },
   {
-    "source": "library/nginx:1.18.0-alpine",
-    "dest": "library-mirror/nginx:1.18.0-alpine"
+    "source": "library/nginx:1.20.0-alpine",
+    "dest": "library-mirror/nginx:1.20.0-alpine"
   },
   {
-    "source": "library/nginx:1.19.10-alpine",
-    "dest": "library-mirror/nginx:1.19.10-alpine"
+    "source": "library/nginx:1.21.0-alpine",
+    "dest": "library-mirror/nginx:1.21.0-alpine"
   },
   {
     "source": "library/httpd:alpine",
     "dest": "library-mirror/httpd:alpine"
   },
   {
-    "source": "library/httpd:2.4.47-alpine",
-    "dest": "library-mirror/httpd:2.4.47-alpine"
+    "source": "library/httpd:2.4.48-alpine",
+    "dest": "library-mirror/httpd:2.4.48-alpine"
   },
   {
     "source": "library/postgres:alpine",
@@ -234,7 +234,7 @@
     "source": "khs1994/tls"
   },
   {
-    "source": "khs1994/kube-nginx:1.19.10"
+    "source": "khs1994/kube-nginx:1.21.0"
   },
   {
     "source": "khs1994/kube-nginx"
@@ -249,7 +249,7 @@
     "source": "khs1994/nginx:alpine"
   },
   {
-    "source": "khs1994/nginx:1.19.10-alpine"
+    "source": "khs1994/nginx:1.21.0-alpine"
   },
   {
     "source": "khs1994/docker-image-sync:latest"
