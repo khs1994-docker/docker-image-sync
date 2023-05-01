@@ -75,12 +75,12 @@
     "ref": "preview-alpine-3.12"
   },
   {
-    "source": "registry.k8s.io/ingress-nginx/controller:v1.3.0@sha256:d1707ca76d3b044ab8a28277a2466a02100ee9f58a86af1535a3edf9323ea1b5",
-    "dest": "nginx-ingress-controller:v1.3.0@sha256:d1707ca76d3b044ab8a28277a2466a02100ee9f58a86af1535a3edf9323ea1b5"
+    "source": "registry.k8s.io/ingress-nginx/controller:v1.7.0@sha256:7612338342a1e7b8090bef78f2a04fffcadd548ccaabe8a47bf7758ff549a5f7",
+    "dest": "nginx-ingress-controller:v1.7.0@sha256:7612338342a1e7b8090bef78f2a04fffcadd548ccaabe8a47bf7758ff549a5f7"
   },
   {
-    "source": "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.1.1@sha256:64d8c73dca984af206adf9d6d7e46aa550362b1d7a01f3a0a91b20cc67868660",
-    "dest": "nginx-ingress-kube-webhook-certgen:v1.1.1@sha256:64d8c73dca984af206adf9d6d7e46aa550362b1d7a01f3a0a91b20cc67868660"
+    "source": "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20230312-helm-chart-4.5.2-28-g66a760794@sha256:01d181618f270f2a96c04006f33b2699ad3ccb02da48d0f89b22abce084b292f",
+    "dest": "nginx-ingress-kube-webhook-certgen:v20230312-helm-chart-4.5.2-28-g66a760794@sha256:01d181618f270f2a96c04006f33b2699ad3ccb02da48d0f89b22abce084b292f"
   },
   {
     "source": "registry.k8s.io/metrics-server/metrics-server:v0.6.0",
@@ -173,5 +173,9 @@
   {
     "source": "registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.9.1",
     "dest": "gcr-mirror/prometheus-adapter:v0.9.1"
+  },
+  {
+    "source": "quay.io/fluentd_elasticsearch/elasticsearch:v7.16.2",
+    "dest": "quay-mirror/elasticsearch:v7.16.2"
   }
 ]
