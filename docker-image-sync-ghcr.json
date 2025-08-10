@@ -1,5 +1,9 @@
 [
   {
+    "source": "ghcr.io/php/pie:bin",
+    "dest": "pie"
+  },
+  {
     "source": "moby/buildkit",
     "dest": "moby-buildkit"
   },
